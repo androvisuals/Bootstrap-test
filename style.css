@@ -1,0 +1,56 @@
+body{
+    --col1: #27DEF2;
+    --col2: #085CA6;
+    --col3: #021D40;
+    --col4: #011126;
+    --col5: #0460D9;
+
+    background-color: #021D40;
+    background: linear-gradient(to left, var(--col2) , var(--col3) 50%,var(--col4) );
+}
+
+
+
+h1,h2,h3,h4{
+    font-family: 'JetBrains Mono', monospace;
+    color: whitesmoke;
+}
+
+p{
+    font-family: 'JetBrains Mono', monospace;
+    color:var(--col1)
+}
+.fontSizeDiv{
+    
+}
+
+.gradient-div-to-left {
+    background: linear-gradient(to left, var(--col3) , var(--col2) 50%,var(--col3) );
+  }
+
+  .gradient-div-to-right {
+    background: linear-gradient(to left, var(--col3) , var(--col2) 75%,var(--col3) );
+  }
+
+.btn{
+    font-family: 'JetBrains Mono', monospace;
+}
+svg{
+    color: whitesmoke;
+}
+
+.col1{
+    background-color: #27DEF2;
+}
+.col2{
+    background-color: #085CA6;
+}
+.col3{
+    background-color: #021D40;
+}
+.col4{
+    background-color: #011126;;
+}
+.col5{
+    background-color: #0460D9;
+}
